@@ -11,7 +11,7 @@
 
 https://www.dropbox.com/sh/puffx24cozjt37q/AADTc_W1LRTAeJ1yudVsxpUIa?dl=0
 
-Каждая строка в .csv файле соответствует видеокадру, а столбцы содержат следующие значения по порядку {time, steering_angle (deg), speed (kph), throttle (%), brake (%), front_left_wheel_speed (kph), front_right_wheel_speed (kph), rear_left_wheel_speed (kph), rear_right_wheel_speed (kph), torque (relative), gear, rpm, light_on, hand_brake}
+Каждая строка в .csv файле соответствует видеокадру, а столбцы содержат следующие значения по порядку [time, steering_angle (deg), speed (kph), throttle (%), brake (%), front_left_wheel_speed (kph), front_right_wheel_speed (kph), rear_left_wheel_speed (kph), rear_right_wheel_speed (kph), torque (relative), gear, rpm, light_on, hand_brake].
 Раскадровка выступает в качестве обучающих данных (train_data), а данные с CAN - в качестве прецедентных (train_labels).
 
 Основная задача - провести ряд экспериментов на TensorFlow, жонглируя архитектурой и параметрами нейросети, а также и данными, с целью определить возможности
